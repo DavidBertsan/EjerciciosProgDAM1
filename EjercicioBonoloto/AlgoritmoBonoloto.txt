@@ -1,0 +1,40 @@
+
+-Importar la biblioteca random y Scanner
+
+
+-Crear un boleto de la ia con un array.
+
+
+    -1.creamos un array int.
+    -2.con un bucle for y el random dandole valores al array
+    -3 en el bucle introducimos los valores
+        -dentro creamos la "carcel" del do while, con la misma funcion que en el boleto usuario. con un boolean para servir de apagar y encender el condicional de si el numeroIA es igual al que ha generado antes.
+
+
+
+-Crear boleto del usuario y sus restricciones.
+
+    -1.Crear un array int con 6 valores
+
+    -2.Crear una variable numero para que el usuario le de valores y luego meterlo en el array
+
+    -3.Hacemos otro for pero esta vez con Outputs y Inputs donde le preguntamos al usuario los valores.
+        -3.1.Dentro de este for hacemos la "carcel"(sera un do while donde pongamos una condicion de que sea entre 1-49, atrapando todos los valores negativos y fuera de este intervalo sin contar al bucle).
+
+        -3.2. Dentro de la "carcel" es donde le pedimos al usuario que meta los valores a la variable numero,luego un condicional if, para mostrar que el numero no es invalido(el do while hara que no tenga efecto en el bucle).
+
+        -3.3.Ahora nos queda que no se puedan reptir valores.
+            -para ello hacemos un For dentro del do-while donde se repita las i(primer for) veces ,para aplicar el condicional si un numero es igual a otro, cancele el intento y vuelva a pedirte otro numero.
+
+
+
+
+-Una vez esten los 2 array definidos compararlos  y contar los aciertos.
+
+    -1 Ahora toca crear una variable llamada aciertos que nos servira de contador y iniciarla a 0
+
+    -2 aplicaremos un bucle for igual de largo que el boletoIA y el boleto(Usuario)
+        -dentro del bucle un condicional donde iguale los valores y si es cierto sumamos 1 aciertos.
+
+-Mostrar aciertos y boletos.
+    -1 con un println y usando el metodo toString para mostrar los boletos y los aciertos.

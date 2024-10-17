@@ -1,0 +1,16 @@
+condicion--> 1 al 49
+Pedir 6 numeros al usuario,
+condicion-->No se pueden repetir
+Guardarlos en un array del 0 al 5
+Generar 6 numeros randoms
+    Random aleatorio= new Random();
+    ...
+y comparar los iguales
+
+------------------------------
+
+Primero crear un bucle donde repita 6 veces el pedir un numero.
+dentro del bucle aplicar un condicional donde los numeros no se puedan repetir y donde tengan que estar entre el 1 y el 49
+Luego generar 6 numeros  randoms con las misma condiciones
+y compararlos para que sean iguales.
+y comunicarlo a la persona.
