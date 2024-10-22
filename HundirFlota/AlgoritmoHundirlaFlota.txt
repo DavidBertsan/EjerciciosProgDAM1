@@ -1,0 +1,9 @@
+Juego de Barcos
+    1-Lo primero sera crear un array con los valores que nos da el usuario
+        - Una funcion de scanner unida a un array para definir sus dimensiones 2x2,4x4,son siempre iguales asi que solo hace falta un N.
+        -Imprimir por pantalla el array con [].
+        -El array su primer valor estara lleno de A B C  D E F... / 1 2 3 4 5.
+    2-Hacer una funcion donde aparezca una x donde el jugador quiera.
+        -Usar el array de antes.
+        -Hacer que el usuario con una variable sustituya un valor "vacio" [] por [x].
+
